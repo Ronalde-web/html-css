@@ -43,6 +43,7 @@ body {
     gap: 10px;
     background-color: #d1cccc;
     margin: 5px;
+    border-radius: 10px;
 }
 .caixa-videos {
     display: flex;
@@ -62,9 +63,10 @@ body {
     cursor: pointer;
 }
 .categorias {
-    background-color: aqua;
+    background-color: rgb(238, 243, 243);
     display: flex;
     gap: 8px; 
+    
 }
 .conteudo {
     display: flex;
@@ -73,9 +75,22 @@ body {
 }
 .menu-lateral {
     min-width: 240px;
-    background-color: aquamarine; 
+   
 }
 .principal {
     display: flex;
     gap: 30px;
+}
+.bloco-item {
+    border-radius: 10px;
+    display: flex;
+    padding: 7px 15px;
+    align-items: center;
+    gap: 20px;
+   padding: 15px;
+}
+.bloco-item.selecionado {
+    background-color: #0505052f;
+    font-weight: 500;
+
 }
