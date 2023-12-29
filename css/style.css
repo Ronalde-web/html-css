@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.capa {
+    width: 300px; 
+    height: 200px;
+    margin: 5px;
+    border-radius: 15px;
+}
+.capa:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+body {
+    font-family: "Roboto", Arial, sans-serif;
+}
+.logo {
+    width: 50px;
+    border-radius: 100%;
+    margin: 5px;
+}
+.paragrafo {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    margin: 5px;
+}
+.carro {
+    color: #0f0f0f;
+    font-weight: 700;
+}
+.obs {
+    color: #606060;
+    font-size: 15px;
+}
+.info {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    background-color: #d1cccc;
+    margin: 5px;
+}
+.caixa-videos {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 40px;
+}
+.categoria {
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+    padding: 5px 10px;
+    margin: 10px;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.categorias {
+    background-color: aqua;
+    display: flex;
+    gap: 8px; 
+}
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 40; 
+}
+.menu-lateral {
+    min-width: 240px;
+    background-color: aquamarine; 
+}
+.principal {
+    display: flex;
+    gap: 30px;
+}
